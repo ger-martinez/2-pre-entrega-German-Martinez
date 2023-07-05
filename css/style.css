@@ -7,35 +7,77 @@
     box-sizing: border-box;    
 }
 .boxTop{
-    background-color: rgb(0, 0, 0);
-    font-size: larger;
-    color: white;
-}
-body div p{
-    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    background-color:rgb(31, 29, 29);
+    font-size: 1em;
     padding: 5px;
-    font-size: large;
 }
-nav{
+.boxTop p{
+    width: 94%;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    color: #198754;
+    margin-bottom: 0;
+}
+    .boxTop :hover{
+        transition: 0.3s ease-in-out;
+        color: aliceblue;
+    }
+/* ICONOS DEL CARRITO Y PERFIL  */
+.topIcons{
+    display: flex;
+    flex-direction: row;
+    width: auto;
+}    
+.topIcons a svg {
+    margin-left: 0.5em;
+    fill: #198754;
+    width: 35px;
+    height: 40px;
+    padding: 2px;
+    }
+    .topIcons a svg:hover {
+        fill: aliceblue ;            
+        }
+/* NAVBAR BS */
+.navegacion{
+    background-color: white;
+}
+.bogey-logo{
+    width: 190px;
+}
+.linksnav li a{
+    font-size: 1.2em;
+    margin-right: 20px;
+    transition: 0.5s ease;
+}
+.linksnav li a:hover{
+    color: #198754
+}
+
+/* NAVEGACION DE LA PAGINA SIN BS */
+/* .navigationBar{
     background-color: rgb(255, 255, 255);
     display: flex;
     position: sticky;
-    left: 0;
-    top: 0; 
     }
     .mainLogo{
-        width: 20%;
+       width: 20%;
         display: flex;
         justify-content: center;
         align-content: center;
-    }
-    nav img{
-        width: 230px;
+    } */
+/* NAV BAR */
+    /* nav img{
+        width: 180px;
             }
     nav ul{
         width: 30%;
         list-style: none;
-        font-size: 1.2em;
+        font-size: 1.1em;
         display: flex;
         justify-content: space-around;
         align-items: center;  
@@ -46,17 +88,18 @@ nav{
         nav ul li a:visited{
             text-decoration: none;
             color: rgb(0, 0, 0);
-        }     
-    form {
+        } */
+/* BARRA BUSQUEDA Y BOTON BUSCAR */
+    /* form {
         width: 46%;
         display: flex;
         justify-content: space-around;
-        align-items: center;  
+        align-items: center;
     }
         form input{
             flex: 0.9;
             height: 25px;
-            font-size: large;
+            font-size: 1.1em;
             width: 50%;
             text-align: center;
         }
@@ -74,102 +117,67 @@ nav{
             border-radius: 4px;
             border: 0.01px solid black;
             color: rgb(0, 0, 0);
-        }    
-    .topIcons{
-        width: 4%;
-        display: block;
-    }    
-    .topIcons a {
-        display: flex;
-        justify-content:center;        
-    }
-    .topIcons a svg {
-        padding: 4px;
-        fill: rgb(0, 0, 0);
-        width: 40px;
-        height: 40px;
-        }
-        .topIcons a svg:hover {
-            fill: rgb(88, 88, 97);            
-            }  
-.main_img{  
-    width: 100%;
-}
-.mainProducts{
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 10px;
-}
-    .mainProducts h1{
+        } */
+
+
+/* IMAGEN HEROE --PASARLA A CAROUSEL */
+    /* .main_img{  
+        width: 100%;
+    } */
+
+/* /CSS SOBRE EL MAIN DEL INDEX*  */   
+.mainProducts h1{
         text-align: center;
-        font-size: xx-large;
+        font-size: 2em;
         padding: 25px 0px;
-    }   
-    .mainProducts .products_categories {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: nowrap;
-        text-align: center;
-        justify-content: space-around;       
     }
-    .mainProducts .products_categories img{
-        width: 70%;
-        
-    }
-.brands{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+   /*USO DE GRIDS EN EL MAIN DE LA PAGINA INDEX  */
+.products_categories {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
 }
-    .brands h2{
-        width: 100%;
-        text-align: center;
-        margin-bottom: 10px;
-    }
-    .brands .golf_brands{
-        width: 25%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        padding-bottom: 10px;
-    }
-    .golf_brands img{
-        width: 60%;
-    }
-.mainProducts .contact_us {
-    font-size: 20px;
-    margin: auto;
-    padding: 8px;
-}
-.contact{
-    display: flex;
-    flex-direction: row ;
-    flex-wrap: nowrap; 
-    justify-content: space-around;   
-}
-    .contact .contact_form{
-        width: 40%; 
-    }
-    .contact .contact_form h2{
-        text-align: center;
-        margin-bottom: 5px;
-    }
-    .contact .contact_form form{
+.products_categories article {
     width: 100%;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap; 
-    align-items: center;
-    }
-.google_maps{
-    width: 45%;
-    margin-bottom: 5px;
+    object-fit: cover;
+    padding: 5%;
 }
-    .google_maps iframe{
+.products_categories article h3{
+    text-align: center;
+    font-size: 1.2em;
+    padding: 6px;
+}
+.products_categories article a img{
+    width: 60%;
+    display: flex;
+    margin: auto;
+}
+
+/* PAGINA CONTACTOS */
+/* .contact{
+    border-top: solid black;
+    padding: 20px 0px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+        }
+    .contact .contact_form{
         width: 100%;
-        height: 100%;
+        } */
+        .contact .contact_form h3{
+            text-align: center;
+            }
+        .form-control{
+            border: solid 1px black;
+        }
+
+    .google_maps{
+        padding: 10px;        
     }
-.buttons{
+    
+        .google_maps iframe{
+            width: 100%;
+            height: 100%;
+        }
+/* .buttons{
     width: 35%;
     padding: 5px;
     text-align: center;
@@ -187,21 +195,66 @@ nav{
         border-radius: 4px;
         border: 0.01px solid black;
         color: rgb(0, 0, 0);
-            } 
+            }  */
+ /* /CSS SOBRE EL MAIN DEL LAS PAGINAS CON BRANDS*  */
+ 
+
+.golf_brands{    
+    display: flex;
+    justify-content: space-around;  
+    align-items: center;
+}
+.golf_brands img{
+    margin-bottom: 20px;
+    width: 210px;
+}
+    .brandsh2{
+        width: 100%;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    /* .brands .golf_brands{
+        width: 25%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-bottom: 10px;
+    } */
+    
+/* CSS de la pagina CONTACTO */
+/* .mainProducts .contact_us {
+    font-size: 20px;
+    margin: auto;
+    padding: 8px;
+} */
+
+/* /CSS SOBRE FOOTER*  */ 
 footer{
+    display: flex;
     background-color: rgb(0, 0, 0) ;
-    padding: 2px 30px;
-    color: white;
+    color: #198754;
     }
     footer svg{
-        margin-right: 5px;
-        padding-top: 12px;
+        margin-right: 15px;
+        padding: 10px 0px;
         width: 40px;
-        fill: white;
+        fill: #198754;
+    }
+    .bi-facebook:hover {
+        transition: 0.3s ease;
+        fill: #446cc2 ;
+    }
+    .bi-instagram:hover {
+        transition: 0.3s ease;
+        fill: #E1306C;
     }
     footer p{
-        text-align: center;
-    }
+        margin: auto;
+        }
+        footer:hover{
+            transition: 0.3s ease-in-out;
+            color: aliceblue;
+        }
 .contact_whatsapp{
     position: fixed;
     right: 50px;
@@ -212,24 +265,28 @@ footer{
         height: 50px;
     }
 
-/* GRID EN PAGINA DE PALOS */
-.galeria div a img{
-    border: solid deeppink 2px;
-    width: 100%;
-    height: auto;
-    object-fit: cover;
-}
-.galeria {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(3, 1fr);
-    grid-column-gap: 0px;
-    grid-row-gap: 0px;
-    grid-template-areas: 
-    "div1" "div2" "div3"
-    "div4" "div5" "div6"
-    "div7" "div8";
-    }
-    
+/* ==== Inicia responsive INDEX ======= */
 
-    
+@media (width < 768px) {
+    .mainProducts h1{
+        font-size: 1.3em;
+    }
+    .products_categories article h3{
+        font-size: 1em;
+    }
+    .products_categories {
+        grid-template-columns: repeat(1,1fr);
+    }
+    .contact_whatsapp{
+        position: fixed;
+        right: 25px;
+        bottom: 10px;
+    }
+    .contact_whatsapp img{
+        width: 35px;
+        height: 35px;
+    }
+    .brandsh2{
+        font-size: 1.3em
+    }
+}
