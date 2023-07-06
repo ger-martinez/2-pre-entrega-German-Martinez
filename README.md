@@ -6,4 +6,4 @@ Se utilizo el carousel que dispone BS para mostrar 3 imagenes heroe.
 ### Index.html:
 Se utilizo grids de css para la grilla de productos y media queries para el responsive
 ### Pages:
-Se utilizo el sistema de grillas de BS para la grilla con las marcas
+Se utilizo el sistema de grillas de BS para la grilla con las marcas y en la pagina de contacto, con el formulario y el iFrame de maps
