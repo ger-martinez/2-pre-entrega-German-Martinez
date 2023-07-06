@@ -1,4 +1,6 @@
 # 2-pre-entrega-German-Martinez
+Link repo: https://github.com/ger-martinez/2-pre-entrega-German-Martinez.git
+Link deplyment:
 ### Nav:
 Se utilizo BS para la navbar con boton de hamburguesa. Cuando aparece el boton hamburguesa se agrega en el menu Mi perfil y Carrito que estan en la parte superior derecha en vista desktop.
 ### Header:
