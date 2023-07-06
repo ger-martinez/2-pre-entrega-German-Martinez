@@ -6,6 +6,7 @@
     font-family: 'Roboto', sans-serif;
     box-sizing: border-box;    
 }
+/*  BOX TOP DEL SITIO */
 .boxTop{
     display: flex;
     justify-content: space-between;
@@ -13,38 +14,38 @@
     font-size: 1em;
     padding: 5px;
 }
-.boxTop p{
-    width: 94%;
-    display: flex;
-    text-align: center;
-    flex-direction: column;
-    justify-content: center;
-    color: #198754;
-    margin-bottom: 0;
-}
-    .boxTop :hover{
-        transition: 0.3s ease-in-out;
-        color: aliceblue;
+    .boxTop p{
+        width: 94%;
+        display: flex;
+        text-align: center;
+        flex-direction: column;
+        justify-content: center;
+        color: #198754;
+        margin-bottom: 0;
     }
-/* ICONOS DEL CARRITO Y PERFIL  */
-.topIcons{
-    display: flex;
-    flex-direction: row;
-    width: auto;
-}    
-.topIcons a svg {
-    margin-left: 0.5em;
-    fill: #198754;
-    width: 35px;
-    height: 40px;
-    padding: 2px;
-    }
-    .topIcons a svg:hover {
-        fill: aliceblue ;            
+        .boxTop :hover{
+            transition: 0.3s ease-in-out;
+            color: aliceblue;
         }
-/* NAVBAR BS */
+/* ICONOS DEL CARRITO Y PERFIL  */
+    .topIcons{
+        display: flex;
+        flex-direction: row;
+        width: auto;
+    }    
+    .topIcons a svg {
+        margin-left: 0.5em;
+        fill: #198754;
+        width: 35px;
+        height: 40px;
+        padding: 2px;
+        }
+        .topIcons a svg:hover {
+            fill: aliceblue ;            
+            }
+/* BARRA NAVEGACION */
 .navegacion{
-    background-color: white;
+    background-color: rgb(255,255,255);
 }
 .bogey-logo{
     width: 190px;
@@ -52,86 +53,18 @@
 .linksnav li a{
     font-size: 1.2em;
     margin-right: 20px;
-    transition: 0.5s ease;
+    transition: 1s ease;
 }
 .linksnav li a:hover{
     color: #198754
 }
-
-/* NAVEGACION DE LA PAGINA SIN BS */
-/* .navigationBar{
-    background-color: rgb(255, 255, 255);
-    display: flex;
-    position: sticky;
-    }
-    .mainLogo{
-       width: 20%;
-        display: flex;
-        justify-content: center;
-        align-content: center;
-    } */
-/* NAV BAR */
-    /* nav img{
-        width: 180px;
-            }
-    nav ul{
-        width: 30%;
-        list-style: none;
-        font-size: 1.1em;
-        display: flex;
-        justify-content: space-around;
-        align-items: center;  
-    }
-        nav ul li a{
-            text-decoration: none;
-        }
-        nav ul li a:visited{
-            text-decoration: none;
-            color: rgb(0, 0, 0);
-        } */
-/* BARRA BUSQUEDA Y BOTON BUSCAR */
-    /* form {
-        width: 46%;
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-    }
-        form input{
-            flex: 0.9;
-            height: 25px;
-            font-size: 1.1em;
-            width: 50%;
-            text-align: center;
-        }
-        form button{
-            font-size: large;
-            border: 0.01px solid black;
-            background-color: black;
-            padding: 6px;
-            color: white;
-            border-radius: 4px;        
-        }
-        form button:hover{
-            cursor: pointer;
-            background-color: rgb(255, 255, 255);
-            border-radius: 4px;
-            border: 0.01px solid black;
-            color: rgb(0, 0, 0);
-        } */
-
-
-/* IMAGEN HEROE --PASARLA A CAROUSEL */
-    /* .main_img{  
-        width: 100%;
-    } */
-
 /* /CSS SOBRE EL MAIN DEL INDEX*  */   
 .mainProducts h1{
         text-align: center;
         font-size: 2em;
         padding: 25px 0px;
     }
-   /*USO DE GRIDS EN EL MAIN DE LA PAGINA INDEX  */
+/*USO DE CSS GRIDS EN EL MAIN DE LA PAGINA INDEX  */
 .products_categories {
     display: grid;
     grid-template-columns: repeat(2,1fr);
@@ -151,54 +84,21 @@
     display: flex;
     margin: auto;
 }
-
 /* PAGINA CONTACTOS */
-/* .contact{
-    border-top: solid black;
-    padding: 20px 0px;
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
-        }
-    .contact .contact_form{
-        width: 100%;
-        } */
-        .contact .contact_form h3{
-            text-align: center;
-            }
-        .form-control{
-            border: solid 1px black;
-        }
-
-    .google_maps{
-        padding: 10px;        
-    }
-    
-        .google_maps iframe{
-            width: 100%;
-            height: 100%;
-        }
-/* .buttons{
-    width: 35%;
-    padding: 5px;
+.contact .contact_form h3{
     text-align: center;
     }
-    .buttons input {
-        font-size: medium;
-        border: 0.01px solid black;
-        background-color: black;
-        color: white;
-        border-radius: 4px;        
-            }
-    .buttons input:hover{
-        cursor: pointer;
-        background-color: rgb(255, 255, 255);
-        border-radius: 4px;
-        border: 0.01px solid black;
-        color: rgb(0, 0, 0);
-            }  */
- /* /CSS SOBRE EL MAIN DEL LAS PAGINAS CON BRANDS*  */
- 
-
+.form-control{
+    border: solid 1px black;
+}
+.google_maps{
+    padding: 10px;        
+}
+    .google_maps iframe{
+        width: 100%;
+        height: 100%;
+    }
+ /* /CSS SOBRE EL MAIN DEL LAS PAGINAS CON MARCAS*  */ 
 .golf_brands{    
     display: flex;
     justify-content: space-around;  
@@ -213,21 +113,6 @@
         text-align: center;
         margin-bottom: 10px;
     }
-    /* .brands .golf_brands{
-        width: 25%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        padding-bottom: 10px;
-    } */
-    
-/* CSS de la pagina CONTACTO */
-/* .mainProducts .contact_us {
-    font-size: 20px;
-    margin: auto;
-    padding: 8px;
-} */
-
 /* /CSS SOBRE FOOTER*  */ 
 footer{
     display: flex;
@@ -265,8 +150,7 @@ footer{
         height: 50px;
     }
 
-/* ==== Inicia responsive INDEX ======= */
-
+/* ==== Inicia responsive con media queries ======= */
 @media (width < 768px) {
     .mainProducts h1{
         font-size: 1.3em;
