@@ -64,6 +64,9 @@
         font-size: 2em;
         padding: 25px 0px;
     }
+.mainProducts p{
+    text-align: center;
+}
 /*USO DE CSS GRIDS EN EL MAIN DE LA PAGINA INDEX  */
 .products_categories {
     display: grid;
