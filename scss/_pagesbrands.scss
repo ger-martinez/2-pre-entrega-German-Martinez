@@ -1,0 +1,15 @@
+//Paginas con marcas
+.golf_brands{    
+    display: flex;
+    justify-content: space-around;  
+    align-items: center;
+    img{
+        margin-bottom: 20px;
+        width: 210px
+    }
+}
+.brandsh2{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 10px;
+}
