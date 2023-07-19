@@ -108,7 +108,7 @@ footer:hover {
 .linksnav li a {
   font-size: 1.2em;
   margin-right: 20px;
-  transition: 1s ease;
+  transition: 3s ease;
 }
 .linksnav li a:hover {
   color: rgb(25, 135, 84);
