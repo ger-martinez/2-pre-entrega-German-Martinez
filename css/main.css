@@ -1,4 +1,26 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700&display=swap");
+@keyframes animation-main {
+  0% {
+    background-image: url(../img/HeroLanding.jpg);
+  }
+  50% {
+    background-image: url(../img/HeroLanding2.jpg);
+  }
+  100% {
+    background-image: url(../img/HeroLanding3.jpg);
+  }
+}
+.header-animacion {
+  animation-name: animation-main;
+  animation-iteration-count: infinite;
+  height: 55vh;
+  animation-duration: 9s;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  animation-timing-function: ease;
+}
+
 .boxTop {
   display: flex;
   justify-content: space-between;
@@ -123,20 +145,37 @@ footer:hover {
   margin: auto;
 }
 
-.golf_brands {
+.brands {
+  padding: 20px 30px;
   display: flex;
-  justify-content: space-around;
-  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
-.golf_brands img {
-  margin-bottom: 20px;
-  width: 210px;
+
+.golf_brands {
+  padding-top: 10px;
+  margin: auto;
+}
+.golf_brands .logo-brand {
+  -o-object-fit: scale-down;
+     object-fit: scale-down;
+  height: 95%;
+}
+
+.brandcard {
+  padding-top: 10px;
+}
+
+.card {
+  width: 40vh;
+  height: auto;
 }
 
 .brandsh2 {
-  width: 100%;
+  font-size: 2em;
   text-align: center;
-  margin-bottom: 10px;
+  margin-top: 10px;
+  margin-bottom: 20px;
 }
 
 .contact .contact_form h3 {
@@ -174,8 +213,4 @@ footer:hover {
 .contact_whatsapp img {
   width: 35px;
   height: 35px;
-}
-
-.brandsh2 {
-  font-size: 1.2em;
 }/*# sourceMappingURL=main.css.map */
