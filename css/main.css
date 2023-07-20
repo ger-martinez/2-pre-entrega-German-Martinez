@@ -108,7 +108,7 @@ footer:hover {
 .linksnav li a {
   font-size: 1.2em;
   margin-right: 20px;
-  transition: 3s ease;
+  transition: 1.5s ease;
 }
 .linksnav li a:hover {
   color: rgb(25, 135, 84);
@@ -176,6 +176,17 @@ footer:hover {
   text-align: center;
   margin-top: 10px;
   margin-bottom: 20px;
+}
+
+.brand-link {
+  list-style: none;
+  text-decoration: none !important;
+  color: rgb(0, 0, 0);
+}
+.brand-link:hover {
+  color: rgb(25, 135, 84);
+  font-size: 1.2em;
+  transition: 0.5s ease;
 }
 
 .contact .contact_form h3 {

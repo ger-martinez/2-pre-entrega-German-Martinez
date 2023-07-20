@@ -27,5 +27,15 @@
     margin-top: 10px;
     margin-bottom: 20px;
 }
+.brand-link{
+    list-style: none;
+    text-decoration: none !important;
+    color: $key-color;
+    &:hover{
+        color: $main-color;
+        font-size: $text-lg;
+        transition: 0.5s ease;   
+    }
+}
       
     
