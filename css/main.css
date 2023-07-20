@@ -108,9 +108,11 @@ footer:hover {
 .linksnav li a {
   font-size: 1.2em;
   margin-right: 20px;
-  transition: 1.5s ease;
 }
 .linksnav li a:hover {
+  cursor: pointer;
+  font-weight: 600;
+  transition: 0.5s ease;
   color: rgb(25, 135, 84);
 }
 
@@ -139,10 +141,21 @@ footer:hover {
   font-size: 1.2em;
   padding: 6px;
 }
+.products_categories article h3:hover {
+  cursor: pointer;
+  color: rgb(25, 135, 84);
+  font-size: 2em;
+  transition: 0.5s ease;
+}
 .products_categories article a img {
   width: 60%;
   display: flex;
   margin: auto;
+}
+.products_categories article a img:hover {
+  cursor: pointer;
+  filter: grayscale(100%);
+  transition: 0.5s ease;
 }
 
 .brands {
@@ -184,6 +197,7 @@ footer:hover {
   color: rgb(0, 0, 0);
 }
 .brand-link:hover {
+  cursor: pointer;
   color: rgb(25, 135, 84);
   font-size: 1.2em;
   transition: 0.5s ease;

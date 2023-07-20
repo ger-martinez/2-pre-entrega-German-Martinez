@@ -32,6 +32,7 @@
     text-decoration: none !important;
     color: $key-color;
     &:hover{
+        cursor: pointer;
         color: $main-color;
         font-size: $text-lg;
         transition: 0.5s ease;   

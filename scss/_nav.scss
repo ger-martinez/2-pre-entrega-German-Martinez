@@ -10,8 +10,10 @@
         a{
         font-size: $text-lg;
         margin-right: 20px;
-        transition: 1.5s ease;
         &:hover{
+            cursor: pointer;
+            font-weight: $text-bold;
+            transition: 0.5s ease;
             color: $main-color;
             }
         }
