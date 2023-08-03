@@ -10,7 +10,10 @@ Tutor: Timoteo Gambella
 
 ✅ Link deployment: https://ger-martinez.github.io/Proyecto-Desarrollo-Web-German-Martinez/
 
-✅ Link Servidor Externo: 
+✅ Links Servidores Externo: 
+
+    * https://bogey-golf.vercel.app/ 
+    * https://bogeygolf.netlify.app/
 
 ----------------------------------
 
