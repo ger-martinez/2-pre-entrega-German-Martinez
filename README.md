@@ -1,6 +1,6 @@
 # Proyecto final- Desarrollo Web - German-Martinez
 ### Tienda Online: Bogey golf Pro Shop
-
+----------------------------------
 Alumno: Martinez German 😎
 
 Comisión: 55445 / Desarrollo Web 🚀
@@ -8,6 +8,7 @@ Comisión: 55445 / Desarrollo Web 🚀
 Docente: Laura Avalle
 
 Tutor: Timoteo Gambella
+----------------------------------
 
 ✅ Link del Repo: 
 
