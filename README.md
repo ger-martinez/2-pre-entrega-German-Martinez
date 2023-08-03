@@ -26,8 +26,11 @@ Tutor: Timoteo Gambella
 
 ## 🎱 Lenguajes y frameworks utilizados:
 1- HTML5
+
 2- CSS3
+
 3- SASS
+
 4- BOOTSTRAP
 
 ----------------------------------
