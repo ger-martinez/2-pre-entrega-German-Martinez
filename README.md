@@ -2,8 +2,11 @@
 ### Tienda Online: Bogey golf Pro Shop
 
 Alumno: Martinez German 😎
+
 Comisión: 55445 / Desarrollo Web 🚀
+
 Docente: Laura Avalle
+
 Tutor: Timoteo Gambella
 
 ✅ Link del Repo: 
