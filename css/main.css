@@ -136,12 +136,12 @@ footer:hover {
      object-fit: cover;
   padding: 5%;
 }
-.products_categories article h3 {
+.products_categories article h2 {
   text-align: center;
   font-size: 1.2em;
   padding: 6px;
 }
-.products_categories article h3:hover {
+.products_categories article h2:hover {
   cursor: pointer;
   color: rgb(25, 135, 84);
   font-size: 2em;
