@@ -6,9 +6,13 @@ Comisión: 55445 / Desarrollo Web 🚀
 Docente: Laura Avalle
 Tutor: Timoteo Gambella
 
-✅ Link del Repo: https://github.com/ger-martinez/Proyecto-Desarrollo-Web-German-Martinez
+✅ Link del Repo: 
 
-✅ Link deployment: https://ger-martinez.github.io/Proyecto-Desarrollo-Web-German-Martinez/
+https://github.com/ger-martinez/Proyecto-Desarrollo-Web-German-Martinez
+
+✅ Link deployment: 
+
+https://ger-martinez.github.io/Proyecto-Desarrollo-Web-German-Martinez/
 
 ✅ Links Servidores Externos: 
 
